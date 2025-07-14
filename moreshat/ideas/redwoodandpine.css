@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background-color: #84f4bc; /* Deep purple */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+/* 2. Custom Logo Header */
+.logo {
+  display: block;
+  margin: 40px auto 20px;
+  width: 300px; /* Adjust to fit your logo */
+  max-width: 90%;
+}
+
+/* 5. Framed White Content Box */
+.content-box {
+  background-color: white;
+  padding: 20px;
+  width: 50vw;
+  height: 1000vh;
+  margin: 0 auto 60px;
+  box-shadow: 0 0 30px rgba(0, 255, 0, 0.2); /* soft green glow */
+  border: 4px solid rgb(255, 133, 233);
+}
+
+.ideas {
+  width: 100%;
+  height: auto;
+  display: block;
+}

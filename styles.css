@@ -1,0 +1,58 @@
+a {
+  color: inherit;
+}
+body {
+  background-color: black;
+}
+.about {
+  width: 200px;
+  height: 130px;
+  background-color: coral;
+  font-size: 3em;
+  text-align: center;
+  color: blue;
+  animation-name: slideRight;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes slideRight {
+  to {
+    transform: translateX(125%);
+  }
+}
+.gallery {
+  width: 350px;
+  height: 150px;
+  background-color: rgb(80, 255, 162);
+  font-size: 8em;
+  text-align: center;
+  color: rgb(255, 173, 252);
+  animation-name: slideDown;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+}
+@keyframes slideDown {
+  to {
+    transform: translateY(85%);
+  }
+}
+.create {
+  width: 375px;
+  height: 175px;
+  background-color: rgb(0, 219, 22);
+  font-size: 8em;
+  text-align: center;
+  color: rgb(255, 40, 40);
+}
+.other {
+  width: 375px;
+  height: 175px;
+  background-color: rgb(99, 0, 219);
+  font-size: 9em;
+  text-align: center;
+  color: rgb(255, 216, 23);
+}

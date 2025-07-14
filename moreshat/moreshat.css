@@ -1,0 +1,18 @@
+a {
+  color: inherit;
+}
+body {
+  background-color: black;
+}
+.journal {
+  color: #dcbe00;
+  font-size: 2em;
+}
+.ideas {
+  color: #db0082;
+  font-size: 50px;
+}
+.archives {
+  color: #00cbdb;
+  font-size: 1em;
+}

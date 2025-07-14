@@ -1,0 +1,31 @@
+a {
+  color: inherit;
+}
+body {
+  background-color: black;
+}
+table {
+  width: 500px;
+}
+.review {
+  color: #dc7ab5;
+}
+.eye {
+  color: #52994d;
+  font-size: 2em;
+}
+.games {
+  color: #e35336;
+  font-size: 35px;
+}
+.social {
+  color: #22db92;
+  font-size: 40px;
+}
+.less {
+  color: #09a7db;
+}
+.shat {
+  color: #99734d;
+  font-size: 1em;
+}

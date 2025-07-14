@@ -1,0 +1,24 @@
+a {
+  color: inherit;
+}
+body {
+  background-color: black;
+}
+.comix {
+  color: aquamarine;
+}
+.sketches {
+  color: #e81750;
+}
+.music {
+  color: #3e09f6;
+}
+.graffiti {
+  color: #c1f609;
+}
+.videos {
+  color: #fd6602;
+}
+.animations {
+  color: #0299fd;
+}
