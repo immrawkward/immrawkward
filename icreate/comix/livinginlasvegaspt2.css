@@ -9,11 +9,21 @@ body {
 }
 
 /* 2. Custom Logo Header */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.head-icons {
+  display: flex;
+  gap: 20px;
+}
+
 .logo {
-  display: block;
-  margin: 40px auto 20px;
-  width: 300px; /* Adjust to fit your logo */
-  max-width: 90%;
+  width: 100px; /* or whatever looks good */
+  height: auto;
 }
 
 /* 5. Framed White Content Box */
