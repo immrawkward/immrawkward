@@ -3,7 +3,7 @@ a {
 }
 body {
   margin: 0;
-  background-color: #84f4bc; /* Deep purple */
+  background-color: #876ce6; /* Deep purple */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,5 +36,5 @@ body {
   height: 1000vh;
   margin: 0 auto 60px;
   box-shadow: 0 0 30px rgba(0, 255, 0, 0.2); /* soft green glow */
-  border: 4px solid rgb(255, 133, 233);
+  border: 4px solid #e1d243;
 }
