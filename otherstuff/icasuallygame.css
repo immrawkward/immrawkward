@@ -32,7 +32,7 @@ body {
   background-color: black;
   padding: 20px;
   width: 50vw;
-  height: 1000vh;
+  height: fit-content;
   margin: 0 auto 60px;
   box-shadow: 0 0 30px #525a61; /* soft green glow */
   border: 4px solid #e6bb77;
