@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #84f4bc; /* Deep purple */
+  background-color: #a14548; /* Deep purple */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,8 +31,14 @@ body {
   background-color: white;
   padding: 20px;
   width: 50vw;
-  height: 1000vh;
+  height: fit-content;
   margin: 0 auto 60px;
   box-shadow: 0 0 30px rgba(0, 255, 0, 0.2); /* soft green glow */
-  border: 4px solid rgb(255, 133, 233);
+  border: 4px solid #488b59;
+}
+
+.wip {
+  width: 100%;
+  height: auto;
+  display: block;
 }
